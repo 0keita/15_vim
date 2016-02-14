@@ -1,0 +1,16 @@
+ctags
+neobundle.vim
+neocomplete.vim
+neomru.vim
+nerdtree
+ruby-matchit
+switch.vim
+tcomment_vim
+unite.vim
+vim-buddy
+vim-distinguished
+vim-endwise
+vim-fugitive
+vim-slim
+vim-surround
+vim-trailing-whitespace
