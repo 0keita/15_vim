@@ -22,6 +22,7 @@
 'NERDTreeWinPos'	NERD_tree.txt	/*'NERDTreeWinPos'*
 'NERDTreeWinSize'	NERD_tree.txt	/*'NERDTreeWinSize'*
 'loaded_nerd_tree'	NERD_tree.txt	/*'loaded_nerd_tree'*
+:Abolish	abolish.txt	/*:Abolish*
 :NERDTree	NERD_tree.txt	/*:NERDTree*
 :NERDTreeCWD	NERD_tree.txt	/*:NERDTreeCWD*
 :NERDTreeClose	NERD_tree.txt	/*:NERDTreeClose*
@@ -71,6 +72,8 @@
 :NeoMRUImportFile	neomru.txt	/*:NeoMRUImportFile*
 :NeoMRUReload	neomru.txt	/*:NeoMRUReload*
 :NeoMRUSave	neomru.txt	/*:NeoMRUSave*
+:S	abolish.txt	/*:S*
+:Subvert	abolish.txt	/*:Subvert*
 :Switch	switch.txt	/*:Switch*
 :SwitchReverse	switch.txt	/*:SwitchReverse*
 :TComment	tcomment.txt	/*:TComment*
@@ -213,10 +216,20 @@ NERDTreeOptions	NERD_tree.txt	/*NERDTreeOptions*
 NERDTreePathListenerAPI	NERD_tree.txt	/*NERDTreePathListenerAPI*
 NERDTreeRender()	NERD_tree.txt	/*NERDTreeRender()*
 NERD_tree.txt	NERD_tree.txt	/*NERD_tree.txt*
+abolish	abolish.txt	/*abolish*
+abolish-abbrev	abolish.txt	/*abolish-abbrev*
+abolish-coercion	abolish.txt	/*abolish-coercion*
+abolish-coercion-reversible	abolish.txt	/*abolish-coercion-reversible*
+abolish-grep	abolish.txt	/*abolish-grep*
+abolish-patterns	abolish.txt	/*abolish-patterns*
+abolish-search	abolish.txt	/*abolish-search*
+abolish-substitute	abolish.txt	/*abolish-substitute*
+abolish.txt	abolish.txt	/*abolish.txt*
 b:neocomplete_sources	neocomplete.txt	/*b:neocomplete_sources*
 b:switch_custom_definitions	switch.txt	/*b:switch_custom_definitions*
 b:tcomment_def_{NAME}	tcomment.txt	/*b:tcomment_def_{NAME}*
 cS	surround.txt	/*cS*
+cr	abolish.txt	/*cr*
 cs	surround.txt	/*cs*
 ds	surround.txt	/*ds*
 fugitive	fugitive.txt	/*fugitive*

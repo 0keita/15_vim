@@ -7,6 +7,7 @@ ruby-matchit
 switch.vim
 tcomment_vim
 unite.vim
+vim-abolish
 vim-buddy
 vim-distinguished
 vim-endwise
@@ -14,3 +15,4 @@ vim-fugitive
 vim-slim
 vim-surround
 vim-trailing-whitespace
+vimproc.vim

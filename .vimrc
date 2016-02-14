@@ -18,6 +18,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " Let NeoBundle manage NeoBundle
 " Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
+NeoBundleFetch 'Shougo/vimproc.vim'
 
 " color
 NeoBundle 'DrSpatula/vim-buddy'
@@ -55,7 +56,12 @@ nnoremap <silent><C-e> :NERDTreeToggle<CR>
 
 " Ruby向けにendを自動挿入してくれる
 NeoBundle 'Shougo/neocomplete.vim'
+let g:neocomplete#enable_at_startup = 1
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 NeoBundle 'tpope/vim-endwise'
+
+" smart replace
+NeoBundle 'tpope/vim-abolish'
 
 " true/false
 NeoBundle 'tomtom/tcomment_vim'
@@ -104,6 +110,7 @@ NeoBundleCheck
 
 set number
 set hlsearch
+set incsearch
 
 set tabstop=2
 set shiftwidth=2
@@ -111,6 +118,12 @@ set expandtab
 set autoindent
 set smartindent
 
+" 検索の時の対象の大文字小文字の区別
+set ignorecase
+set smartcase
+
+set wildmenu
+set wildmode=full
 set pastetoggle=,v
 
 inoremap { {}<LEFT>
