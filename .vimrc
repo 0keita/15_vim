@@ -147,3 +147,6 @@ noremap <Right> <Nop>
 inoremap <Up> <Nop>
 inoremap <Down> <Nop>
 inoremap <Right> <Nop>
+
+" jbuilder
+au BufNewFile,BufRead *.jbuilder set ft=ruby syn=ruby
